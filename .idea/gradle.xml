@@ -8,7 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/1.1基本图形绘制" />
+            <option value="$PROJECT_DIR$/第一章绘图基础" />
+            <option value="$PROJECT_DIR$/第二章视图动画" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
