@@ -23,5 +23,19 @@
             android:layout_height="wrap_content"
             android:text="3.1.4弹跳加载中效果"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_interpolator_evaluator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.2自定义插值器与Evaluator"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_animator_ofobject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.3ValueAnimator进阶-ofObject"
+            android:textAllCaps="false" />
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
