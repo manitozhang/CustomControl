@@ -24,4 +24,16 @@
         android:text="A"
         android:textColor="#000" />
 
+    <Button
+        android:id="@+id/btn_start_ball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始" />
+
+    <ImageView
+        android:id="@+id/iv_fall_ball"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bg_fall_ball" />
+
 </LinearLayout>
