@@ -4,6 +4,7 @@ import com.zhang.BaseActivity;
 import com.zhang.R;
 import com.zhang.第三章.activity.BoundLoadingActivity;
 import com.zhang.第三章.activity.InterpolatorEvaluatorActivity;
+import com.zhang.第三章.activity.ObjectAnimatorActivity;
 import com.zhang.第三章.activity.ValueAnimatorBaseActivity;
 import com.zhang.第三章.activity.ValueAnimatorOfObjectActivity;
 
@@ -21,5 +22,6 @@ public class ThridActivity extends BaseActivity {
         startIntent(R.id.btn_bound_loading, BoundLoadingActivity.class);
         startIntent(R.id.btn_interpolator_evaluator, InterpolatorEvaluatorActivity.class);
         startIntent(R.id.btn_animator_ofobject, ValueAnimatorOfObjectActivity.class);
+        startIntent(R.id.btn_object_animator, ObjectAnimatorActivity.class);
     }
 }

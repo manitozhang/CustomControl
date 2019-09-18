@@ -37,5 +37,12 @@
             android:layout_height="wrap_content"
             android:text="3.3ValueAnimator进阶-ofObject"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_object_animator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.4ObjectAnimator"
+            android:textAllCaps="false" />
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

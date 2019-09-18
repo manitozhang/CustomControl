@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".第三章.activity.ObjectAnimatorActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +31,7 @@
         <activity android:name=".第三章.activity.ValueAnimatorBaseActivity" />
         <activity android:name=".第三章.activity.BoundLoadingActivity" />
         <activity android:name=".第三章.activity.InterpolatorEvaluatorActivity" />
-        <activity android:name=".第三章.activity.ValueAnimatorOfObjectActivity"></activity>
+        <activity android:name=".第三章.activity.ValueAnimatorOfObjectActivity" />
     </application>
 
 </manifest>

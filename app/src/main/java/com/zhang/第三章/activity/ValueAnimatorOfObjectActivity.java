@@ -38,6 +38,9 @@ public class ValueAnimatorOfObjectActivity extends BaseActivity {
         });
     }
 
+    /**
+     * 执行A-Z变化的动画
+     */
     private void doAnim() {
         ValueAnimator valueAnimator = ValueAnimator.ofObject(new Letterevaluator(), new Character('A'), new Character('Z'));
         valueAnimator.setDuration(3000);
@@ -48,8 +51,11 @@ public class ValueAnimatorOfObjectActivity extends BaseActivity {
         valueAnimator.start();
     }
 
+    /**
+     * 执行球体自动滑落的动画
+     */
     private void doBallAnim() {
-        ValueAnimator valueAnimator = ValueAnimator.ofObject(new FallBallEvaluator(), new Point(0, btnStartBall.getBottom()), new Point(500, btnStartBall.getBottom()+500));
+        ValueAnimator valueAnimator = ValueAnimator.ofObject(new FallBallEvaluator(), new Point(0, btnStartBall.getBottom()), new Point(500, btnStartBall.getBottom() + 500));
         valueAnimator.addUpdateListener((animation -> {
             Point animPoint = (Point) animation.getAnimatedValue();
             ivBall.layout(animPoint.x, animPoint.y, ivBall.getWidth() + animPoint.x, ivBall.getHeight() + animPoint.y);
